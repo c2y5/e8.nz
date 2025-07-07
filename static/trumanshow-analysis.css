@@ -1,0 +1,60 @@
+.analysis-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  color: var(--text-light);
+}
+
+.essay h1 {
+  font-size: 2.2rem;
+  color: var(--primary-light);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.thesis,
+.point,
+.conclusion {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border: var(--border-light);
+}
+
+.thesis h2,
+.conclusion h2 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.point h3 {
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.scene-analysis {
+  background: rgba(30, 30, 30, 0.6);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.scene-analysis h4 {
+  color: var(--teal);
+  margin-bottom: 0.5rem;
+}
+
+.scene-analysis ul {
+  padding-left: 1.5rem;
+}
+
+.scene-analysis li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .analysis-container {
+    padding: 0 1rem;
+  }
+}

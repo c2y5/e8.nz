@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e8.nz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./static/navbar.css">
+    <link rel="stylesheet" href="./static/loader.css">
+    <link rel="stylesheet" href="./static/footer.css">
+    <link rel="stylesheet" href="./static/landing.css">
+    <link rel="icon" href="./static/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loader-container">
+        <div class="loader">
+            <div class="loader-logo">
+                <img src="./static/logo.png" alt="Logo">
+            </div>
+            <div class="loader-spinner"></div>
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-brand">
+                <img src="./static/logo.png" alt="Logo" class="navbar-logo">
+            </a>
+
+            <div class="navbar-links">
+                <a href="#" class="nav-link active">Home</a>
+                <a href="/study" class="nav-link">Study</a>
+            </div>
+
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <a href="#" class="nav-link active">Home</a>
+        <a href="/study" class="nav-link">Study</a>
+    </div>
+    
+    <div class="app-content">
+        <section class="scroll-section active hero-section">
+            <div class="hero-content">
+                <div class="hero-logo">
+                    <img src="./static/logo.png" alt="e8.nz Logo">
+                </div>
+                <h1>Make your study experience better</h1>
+                <p class="hero-subtitle">Free study resources for academic success</p>
+                <div class="hero-buttons">
+                    <a href="#study" class="primary-button">
+                        Explore Resources <i class="fas fa-arrow-down"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./static/preview.png" alt="Study illustration">
+            </div>
+        </section>
+
+        <section id="study" class="scroll-section study-section">
+            <div class="section-header">
+                <h2>Study Resources</h2>
+                <p>Materials for your academic journey</p>
+            </div>
+            <div class="study-grid">
+                <div class="study-card">
+                    <div class="card-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Subject Notes</h3>
+                    <p>Comprehensive notes covering all major subjects and topics.</p>
+                    <a href="/resources" class="card-link">View Notes <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="study-card">
+                    <div class="card-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>100% Real Experience</h3>
+                    <p>All notes created by people who took those subjects</p>
+                    <a href="/resources" class="card-link">View Notes <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="app-footer">
+            <div class="footer-content">
+                <div class="footer-social">
+                    <a href="https://github.com/c2y5/e8.nz" class="social-icon" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <div class="footer-copyright">
+                    &copy; 2025 e8.nz. Not affiliated with any commercial entity or Auckland Grammar School.
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./static/script.js"></script>
+</body>
+</html>

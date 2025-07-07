@@ -1,0 +1,46 @@
+body {
+  background-color: #121212;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+
+.commerce-container {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+.commerce-title {
+  font-size: 2.5rem;
+  color: var(--primary-light, #90caf9);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section {
+  background: var(--card-bg, #1e1e1e);
+  border-radius: var(--border-radius, 8px);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-card, 0 4px 10px rgba(0, 0, 0, 0.3));
+  border: var(--border-light, 1px solid rgba(255, 255, 255, 0.1));
+}
+
+.section h2 {
+  color: var(--text-highlight, #ffffff);
+  margin-bottom: 1rem;
+}
+
+ul.topic-list {
+  padding-left: 1.5rem;
+}
+
+ul.topic-list li {
+  margin-bottom: 0.5rem;
+}
+
+.highlight {
+  font-weight: bold;
+  color: var(--primary-light, #90caf9);
+}
